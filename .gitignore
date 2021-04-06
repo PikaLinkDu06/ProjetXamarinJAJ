@@ -1,0 +1,10 @@
+.vs/*
+
+Projet_Xamarin/obj/*
+Projet_Xamarin/bin/*
+
+Projet_Xamarin.Android/obj/*
+Projet_Xamarin.Android/bin/*
+
+Projet_Xamarin.iOS/obj/*
+Projet_Xamarin.iOS/bin/*
