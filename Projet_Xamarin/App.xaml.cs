@@ -10,7 +10,7 @@ namespace Projet_Xamarin
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AppTabbedPage();
         }
 
         protected override void OnStart()

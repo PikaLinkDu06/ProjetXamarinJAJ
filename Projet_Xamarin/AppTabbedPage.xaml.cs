@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Projet_Xamarin.Views.Controls
+namespace Projet_Xamarin
 {
-    public partial class PokemonCard : ContentView
+    public partial class AppTabbedPage : TabbedPage
     {
-        public PokemonCard()
+        public AppTabbedPage()
         {
             InitializeComponent();
         }

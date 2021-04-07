@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
-namespace Projet_Xamarin.Views.Controls
+namespace Projet_Xamarin.Views
 {
-    public partial class PokemonCard : ContentView
+    public partial class PokedexPage : ContentPage
     {
-        public PokemonCard()
+        public PokedexPage()
         {
             InitializeComponent();
         }

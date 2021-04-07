@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Projet_Xamarin
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Projet_Xamarin.Views
 {
-    public partial class MainPage : ContentPage
+    public partial class FavoritesPage : ContentPage
     {
-        public MainPage()
+        public FavoritesPage()
         {
             InitializeComponent();
         }
