@@ -2,9 +2,17 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Projet_Xamarin.Views.Controls.PokemonCard">
-  <ContentView.Content>
-        <StackLayout>
-            <Label>Ceci est une carte</Label>
-        </StackLayout>
-  </ContentView.Content>
+    <ContentView.Content>
+
+        <Frame Margin="15, 0, 15, 15"  WidthRequest="125" HeightRequest="100" Padding="15">
+            <StackLayout>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="gestureRecognizer" />
+                </StackLayout.GestureRecognizers>
+                <Image x:Name="pokeImage" HorizontalOptions="CenterAndExpand" WidthRequest="50" HeightRequest="50" VerticalOptions="Start"/>
+                <Label x:Name="pokeName" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontSize="17" TextColor="#000000"></Label>
+            </StackLayout>
+        </Frame>
+
+    </ContentView.Content>
 </ContentView>
