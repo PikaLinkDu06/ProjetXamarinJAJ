@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Projet_Xamarin.Views.FavoritesPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+        
+        <StackLayout Orientation="Vertical">
+            
+            <StackLayout Margin="0, 50, 0, 0">
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" HorizontalOptions="Center" VerticalOptions="Center" Color="Red"/>
+            </StackLayout>
+
+            <ScrollView>
+                <StackLayout x:Name="favoriteContent" Orientation="Vertical" Padding="20" Margin="0, 15, 0, 15" HorizontalOptions="CenterAndExpand"></StackLayout>
+            </ScrollView>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projet_Xamarin.Views.PokemonDetailPage">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="#FFFFFF">
+
+            <StackLayout Margin="0, 25, 0, 15" HorizontalOptions="Center" VerticalOptions="Start">
+                <Image Source="{Binding Image}" WidthRequest="100" HeightRequest="100"  />
+            </StackLayout>
+            <Label Text="{Binding PokemonName}" FontSize="40" TextColor="#000000" Margin="0, 10, 0, 15" HorizontalOptions="Center"/>
+
+
+            <StackLayout Orientation="Vertical" Padding="15">
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="25" TextColor="#A8A8A8" Text="Pokedex ID : " />
+                    <Label FontSize="25" TextColor="#000000" Text="{Binding PokemonID}" />
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="25" TextColor="#A8A8A8" Text="Type : " />
+                    <Label FontSize="25" TextColor="#000000" Text="{Binding PokemonType}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="25" TextColor="#A8A8A8" Text="Poids : " />
+                    <Label FontSize="25" TextColor="#000000" Text="{Binding PokemonWeight}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontSize="25" TextColor="#A8A8A8" Text="Taille : " />
+                    <Label FontSize="25" TextColor="#000000" Text="{Binding PokemonHeight}" />
+                </StackLayout>
+
+                <ImageButton Source="{Binding FavouriteImage}" Clicked="FavouriteButtonClicked" BackgroundColor="#FFFFFF" HorizontalOptions="CenterAndExpand" Margin="0, 15, 0, 0" WidthRequest="75" HeightRequest="75"/>
+
+            </StackLayout>
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

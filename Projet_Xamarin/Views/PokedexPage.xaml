@@ -4,13 +4,22 @@
              xmlns:local="clr-namespace:Projet_Xamarin.Views.Controls"
              x:Class="Projet_Xamarin.Views.PokedexPage">
 
-    <StackLayout Orientation="Vertical">
-        <Entry HorizontalOptions="CenterAndExpand" WidthRequest="250" Margin="0, 15, 0, 15"/>
-        <StackLayout Orientation="Horizontal">
-            <local:PokemonCard/>
-            <local:PokemonCard/>
-            <local:PokemonCard/>
+        <StackLayout Orientation="Vertical">
+
+        <StackLayout Orientation="Horizontal" Margin="0, 15, 0, 0" HorizontalOptions="CenterAndExpand">
+            <local:CustomEntry WidthRequest="250" Text="{Binding Filter, Mode=TwoWay}" Placeholder="Search Pokemon"/>
+            <Button Text="Search" Command="{Binding SearchSpecifiedPokemon}" IsEnabled="{Binding IsNotBusy}"/>
         </StackLayout>
-    </StackLayout>
+
+        <StackLayout Margin="0, 50, 0, 0">
+            <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" HorizontalOptions="Center" VerticalOptions="Center" Color="Red"/>
+        </StackLayout>
+
+        <ScrollView>
+            <StackLayout x:Name="contentStack" Orientation="Vertical" Padding="20" Margin="0, 15, 0, 15" HorizontalOptions="CenterAndExpand"></StackLayout>
+         </ScrollView>
+
+        </StackLayout>
 
 </ContentPage>
+
