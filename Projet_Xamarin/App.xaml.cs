@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Projet_Xamarin.Models;
+using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,12 +11,12 @@ namespace Projet_Xamarin
         public App()
         {
             InitializeComponent();
-
-            MainPage = new AppTabbedPage();
+            MainPage = new NavigationPage(new AppTabbedPage());
         }
 
         protected override void OnStart()
         {
+
         }
 
         protected override void OnSleep()

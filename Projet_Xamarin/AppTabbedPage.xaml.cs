@@ -14,6 +14,7 @@ namespace Projet_Xamarin
         public AppTabbedPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
