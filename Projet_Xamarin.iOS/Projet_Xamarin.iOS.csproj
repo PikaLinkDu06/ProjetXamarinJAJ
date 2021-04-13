@@ -137,4 +137,10 @@
       <Name>Projet_Xamarin</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_favorite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_favorite_border.png" />
+  </ItemGroup>
 </Project>
