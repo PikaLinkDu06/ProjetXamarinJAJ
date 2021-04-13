@@ -1,5 +1,5 @@
 # ProjetXamarinJAJ
-
+<img source="[TA SOURCE]" />
 ## Membres du projet
 
 - ARMANDO Julien
@@ -18,6 +18,7 @@ son nom.
 
 * On ajoutera une barre de recherche pour pouvoir trouver le pokémon souhaité
 directement.
+
 * Depuis la page d’information d’un pokémon on pourra l’ajouter à nos Pokémon
 favoris
 
