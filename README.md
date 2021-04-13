@@ -9,15 +9,12 @@
 ## Description du projet 
 
 * L’objectif de ce projet sera de réaliser un pokédex (répertoire de Pokémons issu du
-jeu vidéo du même nom) simplifié grâce à une API : 
-
-<ol>
-  >  <a href="https://pokeapi.co/">https://pokeapi.co/</a>
-</ol>
-
+jeu vidéo du même nom) simplifié grâce à une API : <a href="https://pokeapi.co/">https://pokeapi.co/</a>
+   
 * Sur la page d’accueil, on aurait une liste des pokémons avec la photo de celui-ci et
-son nom. On pourra cliquer sur celui qu’on désire et ainsi afficher les détails du
-pokémons comme par exemple son type, etc…
+son nom. 
+
+* On pourra cliquer sur celui qu’on désire et ainsi afficher les détails du pokémons comme par exemple son type, etc…
 
 * On ajoutera une barre de recherche pour pouvoir trouver le pokémon souhaité
 directement.
