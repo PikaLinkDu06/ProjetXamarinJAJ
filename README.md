@@ -1,5 +1,6 @@
 # ProjetXamarinJAJ
-<img source="[TA SOURCE]" />
+<img source="Pikachu.png" />
+
 ## Membres du projet
 
 - ARMANDO Julien
