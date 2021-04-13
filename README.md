@@ -12,7 +12,7 @@
 jeu vidéo du même nom) simplifié grâce à une API : 
 
 <ol>
-  > <a href="https://pokeapi.co/">https://pokeapi.co/</a>
+  >  <a href="https://pokeapi.co/">https://pokeapi.co/</a>
 </ol>
 
 * Sur la page d’accueil, on aurait une liste des pokémons avec la photo de celui-ci et
