@@ -1,5 +1,5 @@
 # ProjetXamarinJAJ
-<img source="Pikachu.png" />
+<img source="https://github.com/PikaLinkDu06/ProjetXamarinJAJ/blob/main/Pikachu.png"  />
 
 ## Membres du projet
 
